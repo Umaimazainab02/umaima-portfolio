@@ -980,23 +980,20 @@ img, video, iframe {
 
 
 
-/* navbar ka background to full width rahe,
-   lekin andar ka content chhota ho */
 .navbar {
-  background: #080808; /* ya jo bhi color ho */
+  background: #080808; 
   width: 100%;
 }
 
 .nav-container {
-  max-width: 2100px; /* yahan chhota ya bara kar sakti ho */
-  margin: 0 auto;    /* center mein */
+  max-width: 2100px; 
+  margin: 0 auto;   
   padding: 10px 15px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-/* menu items ka gap bhi kam karo */
 .nav-menu {
   display: flex;
   gap: 5px; }
